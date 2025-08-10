@@ -1,0 +1,72 @@
+[
+    {
+        "id": "1",
+        "name": "Alejandro Méndez",
+        "phone": "44421001",
+        "email": "alejandro.mendez@gmail.com",
+        "address": "6a Avenida 14-32, Zona 1, Ciudad de Guatemala"
+    },
+    {
+        "id": "2",
+        "name": "Valeria Ortega",
+        "phone": "44421002",
+        "email": "valeria.ortega92@yahoo.com",
+        "address": "Avenida Reforma 8-50, Zona 9, Ciudad de Guatemala"
+    },
+    {
+        "id": "3",
+        "name": "Fernando López",
+        "phone": "44421003",
+        "email": "fernando.lopez.gt@hotmail.com",
+        "address": "Calzada Roosevelt 25-50, Zona 11, Ciudad de Guatemala"
+    },
+    {
+        "id": "4",
+        "name": "Camila Navarro",
+        "phone": "44421004",
+        "email": "camila.navarro10@gmail.com",
+        "address": "Boulevard Liberación 12-45, Zona 8, Ciudad de Guatemala"
+    },
+    {
+        "id": "5",
+        "name": "Diego Martínez",
+        "phone": "44421005",
+        "email": "diegomartinez85@outlook.com",
+        "address": "20 Calle 10-20, Zona 10, Ciudad de Guatemala"
+    },
+    {
+        "id": "6",
+        "name": "Laura Castillo",
+        "phone": "44421006",
+        "email": "laura.castillo.gt@gmail.com",
+        "address": "Carretera a El Salvador Km 9.5, Zona 16, Ciudad de Guatemala"
+    },
+    {
+        "id": "7",
+        "name": "Miguel Herrera",
+        "phone": "44421007",
+        "email": "miguel.herrera79@yahoo.com",
+        "address": "Avenida Petapa 42-30, Zona 12, Ciudad de Guatemala"
+    },
+    {
+        "id": "8",
+        "name": "Paula Ríos",
+        "phone": "44421008",
+        "email": "paula.rios25@gmail.com",
+        "address": "Diagonal 6 14-75, Zona 10, Ciudad de Guatemala"
+    },
+    {
+        "id": "9",
+        "name": "Santiago Gómez",
+        "phone": "44421009",
+        "email": "santiago.gomez.gt@hotmail.com",
+        "address": "8a Calle 6-25, Zona 14, Ciudad de Guatemala"
+    },
+    {
+        "id": "10",
+        "name": "Daniela Vargas",
+        "phone": "44421010",
+        "email": "daniela.vargas92@gmail.com",
+        "address": "Anillo Periférico 3-40, Zona 7, Ciudad de Guatemala"
+    }
+]
