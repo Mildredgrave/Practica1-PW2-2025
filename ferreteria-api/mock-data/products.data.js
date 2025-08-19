@@ -1,6 +1,6 @@
-[
+export let products = [
   {
-    "id": "01",
+    "id": 1,
     "name": "Cuchillo de chef 20cm",
     "sku": "CUC-101",
     "categoryId": "1",
@@ -10,7 +10,7 @@
     "description": "Cuchillo profesional acero inoxidable"
   },
   {
-    "id": "02",
+    "id": 2,
     "name": "Alicate universal",
     "sku": "ALI-102",
     "categoryId": "1",
@@ -20,7 +20,7 @@
     "description": "Alicate multifuncional 7 pulgadas"
   },
   {
-    "id": "03",
+    "id": 3,
     "name": "Lámpara LED portátil",
     "sku": "LAM-103",
     "categoryId": "2",
@@ -30,7 +30,7 @@
     "description": "Lámpara recargable con luz regulable"
   },
   {
-    "id": "04",
+    "id": 4,
     "name": "Ventilador de mesa",
     "sku": "VEN-104",
     "categoryId": "2",
@@ -40,7 +40,7 @@
     "description": "Ventilador compacto 12 pulgadas"
   },
   {
-    "id": "05",
+    "id": 5,
     "name": "Sellador acrílico 300ml",
     "sku": "SEL-105",
     "categoryId": "3",
@@ -50,7 +50,7 @@
     "description": "Sellador acrílico para interiores y exteriores"
   },
   {
-    "id": "06",
+    "id": 6,
     "name": "Masilla epóxica 2 componentes",
     "sku": "MAS-106",
     "categoryId": "9",
@@ -60,7 +60,7 @@
     "description": "Masilla para reparaciones resistentes"
   },
   {
-    "id": "07",
+    "id": 7,
     "name": "Válvula de paso 1/2\"",
     "sku": "VAL-107",
     "categoryId": "4",
@@ -70,7 +70,7 @@
     "description": "Válvula para control de flujo de agua"
   },
   {
-    "id": "08",
+    "id": 8,
     "name": "Fertilizante orgánico 5kg",
     "sku": "FER-108",
     "categoryId": "5",
@@ -80,7 +80,7 @@
     "description": "Fertilizante natural para plantas"
   },
   {
-    "id": "09",
+    "id": 9,
     "name": "Casco de seguridad",
     "sku": "CAS-109",
     "categoryId": "7",
@@ -90,7 +90,7 @@
     "description": "Casco resistente con ajuste regulable"
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "Caja organizadora pequeña",
     "sku": "CAJ-110",
     "categoryId": "10",

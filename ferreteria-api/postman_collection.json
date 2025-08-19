@@ -6,96 +6,27 @@
   },
   "item": [
     {
-      "name": "Products",
-      "item": [
-        {
-          "name": "Get All Products",
-          "request": {
-            "method": "GET",
-            "url": { "raw": "http://localhost:3001/api/products", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "products"] }
-          }
-        },
-        {
-          "name": "Get Product by ID",
-          "request": {
-            "method": "GET",
-            "url": { "raw": "http://localhost:3001/api/products/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "products", "1"] }
-          }
-        },
-        {
-          "name": "Create Product",
-          "request": {
-            "method": "POST",
-            "header": [{ "key": "Content-Type", "value": "application/json" }],
-            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Taladro\",\n  \"price\": 80,\n  \"stock\": 20\n}" },
-            "url": { "raw": "http://localhost:3001/api/products", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "products"] }
-          }
-        },
-        {
-          "name": "Update Product",
-          "request": {
-            "method": "PUT",
-            "header": [{ "key": "Content-Type", "value": "application/json" }],
-            "body": { "mode": "raw", "raw": "{\n  \"name\": \"Martillo reforzado\",\n  \"price\": 30,\n  \"stock\": 45\n}" },
-            "url": { "raw": "http://localhost:3001/api/products/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "products", "1"] }
-          }
-        },
-        {
-          "name": "Delete Product",
-          "request": {
-            "method": "DELETE",
-            "url": { "raw": "http://localhost:3001/api/products/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "products", "1"] }
-          }
-        }
-      ]
-    },
-    {
       "name": "Categories",
       "item": [
         {
           "name": "Get All Categories",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/categories", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "categories"] } }
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/categories", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["categories"] } }
         },
         {
           "name": "Get Category by ID",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/categories/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "categories", "1"] } }
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/categories/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["categories", "1"] } }
         },
         {
           "name": "Create Category",
-          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Herramientas eléctricas\"\n}" }, "url": { "raw": "http://localhost:3001/api/categories", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "categories"] } }
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Herramientas eléctricas\"\n}" }, "url": { "raw": "http://localhost:3001/categories", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["categories"] } }
         },
         {
           "name": "Update Category",
-          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Pinturas\"\n}" }, "url": { "raw": "http://localhost:3001/api/categories/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "categories", "1"] } }
+          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Pinturas\"\n}" }, "url": { "raw": "http://localhost:3001/categories/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["categories", "1"] } }
         },
         {
           "name": "Delete Category",
-          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/api/categories/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "categories", "1"] } }
-        }
-      ]
-    },
-    {
-      "name": "Suppliers",
-      "item": [
-        {
-          "name": "Get All Suppliers",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/suppliers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "suppliers"] } }
-        },
-        {
-          "name": "Get Supplier by ID",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/suppliers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "suppliers", "1"] } }
-        },
-        {
-          "name": "Create Supplier",
-          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Ferreteria ABC\",\n  \"phone\": \"12345678\",\n  \"email\": \"abc@ferreteria.com\"\n}" }, "url": { "raw": "http://localhost:3001/api/suppliers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "suppliers"] } }
-        },
-        {
-          "name": "Update Supplier",
-          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Ferreteria XYZ\",\n  \"phone\": \"987654321\",\n  \"email\": \"xyz@ferreteria.com\"\n}" }, "url": { "raw": "http://localhost:3001/api/suppliers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "suppliers", "1"] } }
-        },
-        {
-          "name": "Delete Supplier",
-          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/api/suppliers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "suppliers", "1"] } }
+          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/categories/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["categories", "1"] } }
         }
       ]
     },
@@ -104,48 +35,73 @@
       "item": [
         {
           "name": "Get All Customers",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/customers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "customers"] } }
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/customers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["customers"] } }
         },
         {
           "name": "Get Customer by ID",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/customers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "customers", "1"] } }
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/customers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["customers", "1"] } }
         },
         {
           "name": "Create Customer",
-          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Juan Perez\",\n  \"phone\": \"5551234567\"\n}" }, "url": { "raw": "http://localhost:3001/api/customers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "customers"] } }
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Juan Perez\",\n  \"phone\": \"5551234567\"\n}" }, "url": { "raw": "http://localhost:3001/customers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["customers"] } }
         },
         {
           "name": "Update Customer",
-          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Carlos Gomez\",\n  \"phone\": \"5557654321\"\n}" }, "url": { "raw": "http://localhost:3001/api/customers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "customers", "1"] } }
+          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Carlos Gomez\",\n  \"phone\": \"5557654321\"\n}" }, "url": { "raw": "http://localhost:3001/customers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["customers", "1"] } }
         },
         {
           "name": "Delete Customer",
-          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/api/customers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "customers", "1"] } }
+          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/customers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["customers", "1"] } }
         }
       ]
     },
     {
-      "name": "sales",
+      "name": "Products",
       "item": [
         {
-          "name": "Get All sales",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/orders", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "orders"] } }
+          "name": "Get All Products",
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/products", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["products"] } }
         },
         {
-          "name": "Get sale by ID",
-          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/api/orders/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "orders", "1"] } }
+          "name": "Get Product by ID",
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/products/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["products", "1"] } }
         },
         {
-          "name": "Create sale",
-          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"customerId\": 1,\n  \"items\": [\n    { \"productId\": 1, \"quantity\": 2 }\n  ]\n}" }, "url": { "raw": "http://localhost:3001/api/orders", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "orders"] } }
+          "name": "Create Product",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Taladro\",\n  \"price\": 80,\n  \"stock\": 20\n}" }, "url": { "raw": "http://localhost:3001/products", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["products"] } }
         },
         {
-          "name": "Update sale",
-          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"customerId\": 1,\n  \"items\": [\n    { \"productId\": 1, \"quantity\": 3 }\n  ]\n}" }, "url": { "raw": "http://localhost:3001/api/orders/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "orders", "1"] } }
+          "name": "Update Product",
+          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Martillo reforzado\",\n  \"price\": 30,\n  \"stock\": 45\n}" }, "url": { "raw": "http://localhost:3001/products/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["products", "1"] } }
         },
         {
-          "name": "Delete sale",
-          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/api/orders/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["api", "orders", "1"] } }
+          "name": "Delete Product",
+          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/products/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["products", "1"] } }
+        }
+      ]
+    },
+    {
+      "name": "Suppliers",
+      "item": [
+        {
+          "name": "Get All Suppliers",
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/suppliers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["suppliers"] } }
+        },
+        {
+          "name": "Get Supplier by ID",
+          "request": { "method": "GET", "url": { "raw": "http://localhost:3001/suppliers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["suppliers", "1"] } }
+        },
+        {
+          "name": "Create Supplier",
+          "request": { "method": "POST", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Ferreteria ABC\",\n  \"phone\": \"12345678\",\n  \"email\": \"abc@ferreteria.com\"\n}" }, "url": { "raw": "http://localhost:3001/suppliers", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["suppliers"] } }
+        },
+        {
+          "name": "Update Supplier",
+          "request": { "method": "PUT", "header": [{ "key": "Content-Type", "value": "application/json" }], "body": { "mode": "raw", "raw": "{\n  \"name\": \"Ferreteria XYZ\",\n  \"phone\": \"987654321\",\n  \"email\": \"xyz@ferreteria.com\"\n}" }, "url": { "raw": "http://localhost:3001/suppliers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["suppliers", "1"] } }
+        },
+        {
+          "name": "Delete Supplier",
+          "request": { "method": "DELETE", "url": { "raw": "http://localhost:3001/suppliers/1", "protocol": "http", "host": ["localhost"], "port": "3001", "path": ["suppliers", "1"] } }
         }
       ]
     }

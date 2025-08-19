@@ -1,51 +1,51 @@
-[
+export let categories = [
   {
-    "id": "1",
+    "id": 1,
     "name": "Herramientas manuales",
     "description": "Cuchillos, cinceles, alicates"
   },
   {
-    "id": "2",
+    "id": 2,
     "name": "Eléctricos",
     "description": "Lámparas LED, ventiladores, cargadores"
   },
   {
-    "id": "3",
+    "id": 3,
     "name": "Pintura",
     "description": "Sprays, selladores, esponjas"
   },
   {
-    "id": "4",
+    "id": 4,
     "name": "Fontanería",
     "description": "Válvulas, bombas, llaves de paso"
   },
   {
-    "id": "5",
+    "id": 5,
     "name": "Jardín",
     "description": "Fertilizantes, semillas, rastrillos"
   },
   {
-    "id": "6",
+    "id": 6,
     "name": "Construcción",
     "description": "Ladrillos, bloques, vigas de madera"
   },
   {
-    "id": "7",
+    "id": 7,
     "name": "Seguridad",
     "description": "Arneses, señales, extintores"
   },
   {
-    "id": "8",
+    "id": 8,
     "name": "Ferretería general",
     "description": "Tornillos, bisagras, pernos"
   },
   {
-    "id": "9",
+    "id": 9,
     "name": "Adhesivos",
     "description": "Cintas adhesivas, masillas, epóxicos"
   },
   {
-    "id": "10",
+    "id": 10,
     "name": "Accesorios",
     "description": "Cajas de herramientas, organizadores, etiquetas"
   }
