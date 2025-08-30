@@ -47,7 +47,7 @@ const postCustomerHandler = async (req, res) => {
     if (!newCustomer.name || newCustomer.name.trim() === "") {
       return res.status(400).json({ message: "Se requiere el nombre del cliente" });
     }
-    // Opcionalmente podrías validar más campos como email, phone, address
+    // Opcionalmente podriamos validar más campos como email, phone, address
 
     customers.push(newCustomer);
 

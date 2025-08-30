@@ -82,7 +82,7 @@ const updateSupplierHandler = async (req, res) => {
   try {
     const id = req.params.id;
     const updatedSupplier = req.body;
-    // Validación de suppliers actualizado
+    // Validación
     const { error } = supplierSchema.validate(updatedSupplier, { abortEarly: false });
     if (error) {
       return res.status(400).json({ message: error.details.map(e => e.message) });
