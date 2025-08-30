@@ -65,7 +65,7 @@ const postCustomerHandler = async (req, res) => {
 const putCustomerHandler = async (req, res) => {
   try {
     const id = req.params.id;
-    const customerIndex = customers.findIndex(c => c.id == id);
+    const customerIndex = customers.findIndex(c => c.id == id); //customerIndex sirve para obtener la posición en el arreglo
 
     if (customerIndex === -1) {
       return res.status(404).json({ message: "cliente no encontrado" });
@@ -87,14 +87,14 @@ const putCustomerHandler = async (req, res) => {
 const deleteCustomerHandler = async (req, res) => {
   try {
     const id = req.params.id;
-    const customerIndex = customers.findIndex(c => c.id == id);
+    const customerIndex = customers.findIndex(c => c.id == id);//findIndex()sirve para encontrar el índice del primer elemento en un array que cumple con una condición específica dada por una función
+
 
     if (customerIndex === -1) {
       return res.status(404).json({ message: "cliente no encontrado" });
     }
 
-    const deletedCustomer = customers.splice(customerIndex, 1);
-
+    const deletedCustomer = customers.splice(customerIndex, 1); 
     return res.status(200).json({
       message: "success",
       data: deletedCustomer[0]
